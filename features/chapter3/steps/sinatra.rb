@@ -12,8 +12,8 @@ end
 
 Then(/^I should see the saved details confirmed$/) do
   page.should have_text 'You submitted the following on:'
-  find('#name').should have_text 'Matt'
-  find('#age').should have_text '20-50'
-  find('#review').should have_text 'Alright I guess....'
-  find('#title').should have_text 'Catch 22'
+  expect(find('#name')).to have_text 'Matt'
+  expect(find('#age')).to have_text '20-50'
+  expect(find('#review')).to have_text 'Alright I guess....'
+  expect(find('#title')).to have_text 'Catch 22'
 end
