@@ -5,4 +5,3 @@ This repo is a clone of Mathew Robins original [repo](http://github.com/mcrmfc/a
 The original  repo
  contains the code examples from the book [Application Testing with Capybara](http://www.packtpub.com/application-testing-with-capybara/book) which is published by PACKT.
 
-![http://www.packtpub.com/application-testing-with-capybara/book](1251OS.jpg)
